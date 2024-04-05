@@ -1,0 +1,48 @@
+body {
+    background: lightgrey;
+    background-image: url("stacked-waves-haikei.svg");
+
+    color: black;
+}
+
+h1{
+    font-family: system-ui;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.poem{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+a{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    background-color:#42b9f5;
+    font-size: 20px;
+    border-radius:4px;
+    }
+button:hover{
+    background-color:#3185b0;
+    border-radius:2px;
+    transform: skewX(12deg);
+}
